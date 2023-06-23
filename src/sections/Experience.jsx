@@ -3,6 +3,8 @@ import styles from '@/styles/sections/experience.module.css'
 const Experience = () => {
   return (
     <section className={styles.experience} id='02'>
+      <h2 className={styles.title}>Experience</h2>
+
       <div className={styles.container}>
         <p>2023</p>
         <div className={styles.item}>
@@ -42,6 +44,7 @@ const Experience = () => {
           </p>
         </div>
       </div>
+      
       <div className={styles.button}>
         <a href='/' target='_blank'>
           <button className={styles.btn}>View Full Resume</button>

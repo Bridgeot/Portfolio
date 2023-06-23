@@ -6,10 +6,13 @@ import { SiExpress, SiNextdotjs } from 'react-icons/si'
 const Skills = () => {
   return (
     <section className={styles.skills} id='03'>
+      <h2 className={styles.title}>Skills</h2>
+
       <h3 className={styles.heading}>
         Below I've listed a few of the technologies that I've had the 
         opportunity to work with the most:
       </h3>
+      
       <ul className={styles.items}>
         <li className={styles.item}>
           <FaHtml5 />

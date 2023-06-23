@@ -3,6 +3,8 @@ import styles from '@/styles/sections/about.module.css'
 const About = () => {
   return (
     <section className={styles.about} id='01'>
+      <h2 className={styles.title}>About</h2>
+      
       <p className={styles.text}>
         Hi, I am a Front-End/Full-Stack Developer with experience in building responsive and user-friendly 
         websites. Previously, I was employed in both the customer service and public education industries, 
