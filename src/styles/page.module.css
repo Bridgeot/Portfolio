@@ -8,3 +8,23 @@
     flex-direction: column;
     gap: 120px;
 }
+
+@media screen and (max-width: 1048px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .container {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 1048px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .container {
+        gap: 60px;
+    }
+}
